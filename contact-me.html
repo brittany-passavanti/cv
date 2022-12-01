@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+</head>
+<body>
+    <h3>Brittany's Contact Information</h3>
+        <ul>
+             <li><strong>Email Brittany at:</strong> <a href="mailto:brittany.passavanti@gmail.com">brittany.passavanti@gmail.com</a></li>
+             <li><strong>Call Brittany:</strong><a href="tel:+11234567890"> 123.456.7640</a></li>
+             <li><strong> Send Mail to Brittany:</strong> <br>
+                123 Waxhaw Parkway<br>
+                Waxhaw, NC 28173
+             </li>
+        </ul>
+        <form action="mailto:brittany.passavanti@gmail.com" method="post" enctype="text/plain">
+            <label>Your Name:</label>
+            <input type="text" name="yourName" value=""><br>
+            <label>Your Email:</label>
+            <input type="email" name="yourEmail" value=""><br>
+            <label>Your Message:</label><br>
+            <textarea name="yourMessage" cols="20" rows="2"></textarea><br>
+            <input type="submit">
+        </form>
+            <fieldset>
+              <legend>Do you agree to the following terms?</legend>
+                <p>By submitting your name and email you agree for Brittany to contact you and talk all about dogs.</p>
+              <label><input type="radio" name="radio" value="yes" /> Yes</label>
+              <label><input type="radio" name="radio" value="no" /> No</label>
+            </fieldset>
+          </form>
+</body>
+</html>
